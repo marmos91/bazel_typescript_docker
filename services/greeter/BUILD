@@ -1,5 +1,6 @@
 load("@npm_bazel_typescript//:index.bzl", "ts_library")
 load("@npm_bazel_rollup//:index.bzl", "rollup_bundle")
+load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
 
 ts_library(
     name = "greeter",
@@ -24,4 +25,9 @@ rollup_bundle(
     deps = [
         ":greeter",
     ],
+)
+
+nodejs_binary(
+    name = "bin",
+    entry_point = "bundle.js",
 )
