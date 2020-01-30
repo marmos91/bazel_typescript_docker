@@ -1,0 +1,30 @@
+{
+  "name": "bazel_typescript_docker",
+  "version": "1.0.0",
+  "description": "Bazel demonstration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marmos91/bazel_typescript_docker.git"
+  },
+  "devDependencies": {
+    "@bazel/bazel": "^2.0.0",
+    "@bazel/buildifier": "^0.29.0",
+    "@bazel/ibazel": "^0.11.1",
+    "@bazel/rollup": "^1.2.1",
+    "@bazel/typescript": "^1.2.0",
+    "@types/node": "^13.5.1",
+    "rollup": "^1.30.1",
+    "tslint": "^6.0.0",
+    "typescript": "^3.6.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marmos91/bazel_typescript_docker/issues"
+  },
+  "homepage": "https://github.com/marmos91/bazel_typescript_docker#readme"
+}
